@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary: #000;
+  --border-grey: lightgrey;
+  --clr-paragraph: #63676b;
+  --clr-blue: #1d74e8;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.rotate {
+  transition: box-shadow 0.2s linear, transform 0.2s linear;
+}
+
+.rotate:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}

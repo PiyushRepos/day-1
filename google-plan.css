@@ -1,0 +1,54 @@
+.plans-card {
+  width: 410px;
+  margin: 0 auto;
+  border: 1px solid var(--border-grey);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.plans-card-content {
+  padding: 20px 17px;
+}
+
+.plans-card-subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.92rem;
+  color: var(--clr-paragraph);
+}
+
+.plans-card-content i {
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+  color: var(--clr-paragraph);
+}
+
+.plans-card-title {
+  color: #202124;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0.65rem 0;
+}
+
+.plans-card-desc {
+  color: var(--clr-paragraph);
+  font-size: 1rem;
+}
+
+.plans-card img {
+  width: 100%;
+}
+
+.plans-card-btn {
+  background: none;
+  outline: none;
+  border: 1px solid var(--border-grey);
+  border-radius: 6px;
+  padding: 0.65rem 1.55rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--clr-blue);
+  margin: 1.4rem 0 1rem;
+  cursor: pointer;
+}

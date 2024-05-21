@@ -1,0 +1,54 @@
+.login {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.login-brand {
+  font-family: "Lobster Two", sans-serif !important;
+  font-size: 4rem;
+}
+
+.login-subtitle {
+  font-weight: 700;
+  margin: 1.15rem 0;
+  font-size: 1rem;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  color: var(--clr-paragraph);
+  font-weight: 600;
+}
+
+.login-btn {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+  padding: 16px 50px;
+  margin-top: 1.7rem;
+  margin-bottom: 2.3rem;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-footer {
+  color: #b3b3b3;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.login-footer a {
+  color: #0000009f;
+}
+
+.desc {
+  margin: 1.75rem 0;
+}
